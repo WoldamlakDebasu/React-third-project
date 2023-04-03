@@ -1,0 +1,157 @@
+.addis img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.75);
+}
+
+
+
+.firstaddis {
+   margin-top: 7rem;
+   padding-left: 2rem;
+}
+
+
+.firstaddis h1 {
+    color: yellow;
+    margin-left:3rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
+    padding:1rem;
+    background-color: black;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.75);
+    text-align: center;
+}
+
+
+
+.firstaddis h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+/* ################ THE START OF OUR BOODKING IN ADDIS ABABA HOTEL ARAT KILO ###############*/
+.middle-footer {
+    color: orangered;
+    background-color: black;
+}
+
+.bodytext {
+    text-align: center;
+    padding-top: 0.75rem;
+}
+
+
+/* ############# THE END OF OUR  ADDIS ABABA ARAT KILO HOTE BOODKING SECTION ##########3 */
+
+.secondaddis {
+    margin-top: 7rem;
+    padding-left: 2rem;
+ }
+
+ .secondaddis img {
+  width: 100%;
+  height: 600px;
+ }
+
+ .secondaddis h1 {
+    color: orange;
+    margin-left:3rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
+    padding:1rem;
+    background-color: black;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.75);
+
+}
+
+
+.thirdaddis h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+
+
+.thirdaddis {
+    margin-top: 7rem;
+    padding-left: 2rem;
+}
+
+
+.thirdaddis h1 {
+    color:orange;
+    background-color: black;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.75);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding: 1rem;
+}
+
+.thirdaddis h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+.fourthaddis {
+    margin-top: 7rem;
+    padding-left: 2rem;
+}
+
+
+.fourthaddis h1 {
+    color: orange;
+    background-color: black;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0,0.75);
+}
+
+
+.fourthaddis h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgba(0,0,0,0.75);
+    color:silver;
+}
+
+.main-footer ul li a {
+    color:silver;
+}
+
+.first-footer ul {
+    list-style-type: none;
+}
+
+.first-footer li a {
+    text-decoration: none;
+    padding: 0.75rem;
+}
+
+
+.first-footer li a:hover {
+    cursor: pointer;
+    color:orange;
+}
+
+

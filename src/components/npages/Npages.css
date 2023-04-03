@@ -1,0 +1,127 @@
+.dining img {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.firstdining {
+    margin-top: 7rem;
+    padding-left: 2rem;
+}
+
+.firstdining h1 {
+    color: orange;
+    margin-left:3rem;
+    margin-right: 3rem;
+    padding-bottom: 2rem;
+    padding:1rem;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 8px rgba(0, 51, 82, 0.75);
+}
+
+
+.firstdining h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+.firstwellness {
+    margin-top: 7rem;
+    padding-left: 2rem;
+}
+
+.firstwellness h1 {
+    color: blue;
+    margin-left:3rem;
+    padding-bottom: 2rem;
+    padding:1rem;
+}
+
+
+.firstwellness h1:hover {
+    cursor: pointer;
+    color:orangered;
+    transition: all 3s ease;
+}
+
+.diningheader {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   row-gap: 1rem;
+   margin-bottom: 1rem;
+}
+
+
+.diningheader img {
+ width: 600px;
+ height: 500px;
+}
+
+
+.diningheader h1 {
+    background-color: rgba(0, 51, 82, 0.75);
+    color:white;
+    text-align: center;
+    
+}
+
+
+.diningheader p {
+ color:slateblue;
+ font-size: 25px;
+ font-style:italic;
+
+}
+
+.wellness {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wellness img {
+    width: 600px;
+    height: 500px;
+    margin-top: 3rem;  
+    margin-bottom:2rem;
+}
+
+.firstwellness {
+    background-color: slategray;
+    padding: 1.25rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.firstwellness:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0,0, 0, 0.75);
+    background-color: slateblue;
+}
+
+.bodyfooter img  {
+   width: 300px;
+   height: 250px;
+}
+
+/* ################### OUR OCASTION PART ########################### */
+
+.ocasions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
+    color: white;
+    background-color:rgba(0, 51, 82, 0.75);
+    padding: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.secondocasion img {
+   width: 600px;
+   height: 500px;
+}
+

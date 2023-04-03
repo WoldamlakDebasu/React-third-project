@@ -1,0 +1,32 @@
+.dropdown-menu4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-direction: row;
+    gap:0.5rem;
+    top:80px;
+    margin-right: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+    z-index: 10rem;
+    position: absolute;
+    background-color: slategrey;
+    padding: 1rem;
+}
+
+
+.dropdown-menu4 li {
+    list-style-type: none;
+}
+
+
+.dropdown-menu4 a {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

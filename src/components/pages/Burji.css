@@ -1,0 +1,304 @@
+body {
+    overflow-x: hidden;
+}
+
+
+.header video {
+   left: 0;
+   top: 0;
+   right: 0;
+   width: 100%;
+   position: absolute;
+   height: 100vh;
+   z-index: -1;
+   object-fit: cover;
+}
+
+
+.burji {
+    background-color: rgba(0, 0, 0, 0.45);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+.text1 {
+    margin-left: 5rem;
+    margin-top: 15rem;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+}
+
+
+
+.text1:hover {
+    cursor: pointer;
+    color: blue;
+    transition: all 1s ease;
+}
+
+
+
+.body {
+    background-color: rgba(0,0,0, 0.95);
+    color: orange;
+    box-shadow: inset 0 0 10px;
+    object-fit: cover;
+    border: solid 1rem rgba(#000, 0.2);
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+
+
+button {
+    margin-top: 1.5rem;
+    margin-left: 4rem;
+    padding: 0.75rem;
+    border: 1px solid white;
+}
+
+
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    background-color: silver;
+}
+
+.bodyheader {
+   display: flex;
+   margin-top: 10rem;
+   gap: 2.5rem;
+   padding-left: 2rem;
+   color:blue;
+}
+
+.bodyheader:hover {
+    cursor:pointer;
+    transition: all 1s ease;
+    color:silver;
+}
+
+
+.bodysec h1 {
+    text-align: center;
+    padding-left: 5rem;
+    box-shadow: 2px 4px 8px rgba(0,0,0, 0.25);
+}
+
+
+.bodyfooter {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.firstfooter {
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border:1px solid black;
+}
+
+
+.secondfooter {
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border:1px solid black;
+}
+
+
+.thirdfooter {
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border:1px solid black;
+}
+
+
+.fourthfooter {
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border:1px solid black;
+}
+
+
+.fifthfooter {
+    padding: 1rem;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+    border:1px solid black;
+}
+
+
+.services {
+    width: 100%;
+}
+
+
+.serviceone{
+    margin-left: 5rem;
+}
+
+
+.servicetwo {
+    margin-left: 5rem;
+}
+
+.servicethree {
+    margin-left: 5rem;
+}
+
+.contactfoot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 7rem;
+    gap: 3rem;
+   padding-bottom: 1rem;
+}
+
+.contact-text {
+   text-align: center;
+   text-decoration: underline;
+}
+
+
+.main-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.first-footer ul {
+    list-style-type: none;
+}
+
+.first-footer li a {
+    text-decoration: none;
+    padding: 0.75rem;
+}
+
+
+.first-footer li a:hover {
+    cursor: pointer;
+    color:orange;
+}
+
+
+
+.third-footer {
+    display: flex;
+    row-gap: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.second-footer li {
+    list-style-type: none;
+}
+
+.second-footer li a:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.second-footer li a {
+    text-decoration: none;
+    padding: 0.5rem;
+
+}
+
+.third-footer li {
+    list-style-type: none;
+    padding-left: 0.5rem;
+    text-decoration: none;
+}
+
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+
+  /* ################## THE START OF OUR TESTIMONIAL SECTION  #####################*/
+.testimonial-section {
+    display: flex;
+   row-gap: 1rem;
+   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.45);
+}
+
+.testimonial-section img {
+    border-radius: 50%;
+}
+
+.testimonial-text {
+    text-align: center;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+.testimony1 {
+    margin-left: 1.25rem;
+    padding: 0.75rem;
+}
+
+.testtext1 {
+    color: silver;
+}
+.testtext2 {
+    color: silver;
+}
+.testtext3 {
+    color: silver;
+}
+.testimony3 {
+    margin-right: 1.25rem;
+    padding: 0.75rem;
+}
+  /*#################### THE END OF OUR TESTIMONAIL SECTION #######################*/
+
+
+
+
+  /* ################## THE START OF OUR LOGIN SECTION  #####################*/
+.login-section {
+    background-color: slateblue;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    padding-bottom: 0.75rem;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.login-section button {
+    align-items: center;
+    padding: 0.75rem;
+    margin-left: 23rem;
+    background-color: red;
+    border: none;
+    color:white;
+}
+
+
+.login-section h1 {
+    text-align: center;
+    color: blue;
+}
+  
+
+.login-section input {
+    padding: 0.75rem;
+    background-color: silver;
+}
+
+ /*#################### THE END OF OUR LOGIN SECTION #######################*/
